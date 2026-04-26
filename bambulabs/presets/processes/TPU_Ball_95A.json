@@ -1,0 +1,130 @@
+{
+    "bottom_shell_layers": "5",
+    "bottom_shell_thickness": "1",
+    "bottom_surface_pattern": "monotonicline",
+    "bridge_flow": "0.95",
+    "bridge_speed": [
+        "25",
+        "nil"
+    ],
+    "default_acceleration": [
+        "2000",
+        "nil"
+    ],
+    "from": "User",
+    "gap_infill_speed": [
+        "50",
+        "nil"
+    ],
+    "infill_wall_overlap": "12%",
+    "inherits": "0.24mm Standard @BBL P2S",
+    "initial_layer_infill_speed": [
+        "30",
+        "nil"
+    ],
+    "initial_layer_print_height": "0.24",
+    "initial_layer_speed": [
+        "20",
+        "nil"
+    ],
+    "initial_layer_travel_acceleration": [
+        "1500",
+        "nil"
+    ],
+    "inner_wall_acceleration": [
+        "1500",
+        "nil"
+    ],
+    "inner_wall_speed": [
+        "35",
+        "nil"
+    ],
+    "internal_solid_infill_pattern": "monotonicline",
+    "internal_solid_infill_speed": [
+        "50",
+        "nil"
+    ],
+    "layer_height": "0.2",
+    "max_travel_detour_distance": "10",
+    "name": "TPU Ball 95A",
+    "outer_wall_acceleration": [
+        "800",
+        "nil"
+    ],
+    "outer_wall_speed": [
+        "25",
+        "nil"
+    ],
+    "overhang_1_4_speed": [
+        "40",
+        "nil"
+    ],
+    "overhang_2_4_speed": [
+        "35",
+        "nil"
+    ],
+    "overhang_3_4_speed": [
+        "25",
+        "nil"
+    ],
+    "overhang_4_4_speed": [
+        "15",
+        "nil"
+    ],
+    "print_extruder_id": [
+        "1",
+        "1"
+    ],
+    "print_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "print_settings_id": "TPU Ball 95A",
+    "reduce_crossing_wall": "1",
+    "resolution": "0.03",
+    "skeleton_infill_density": "25%",
+    "skin_infill_density": "25%",
+    "smooth_coefficient": "3",
+    "sparse_infill_acceleration": [
+        "2000",
+        "nil"
+    ],
+    "sparse_infill_anchor": "250%",
+    "sparse_infill_density": "25%",
+    "sparse_infill_pattern": "gyroid",
+    "sparse_infill_speed": [
+        "40",
+        "nil"
+    ],
+    "support_interface_speed": [
+        "50",
+        "nil"
+    ],
+    "support_speed": [
+        "60",
+        "nil"
+    ],
+    "top_one_wall_type": "not apply",
+    "top_shell_layers": "6",
+    "top_shell_thickness": "1.2",
+    "top_surface_acceleration": [
+        "1000",
+        "nil"
+    ],
+    "top_surface_pattern": "archimedeanchords",
+    "top_surface_speed": [
+        "20",
+        "nil"
+    ],
+    "travel_acceleration": [
+        "3000",
+        "nil"
+    ],
+    "travel_speed": [
+        "150",
+        "nil"
+    ],
+    "version": "2.5.0.14",
+    "wall_loops": "5",
+    "wall_sequence": "outer wall/inner wall"
+}
