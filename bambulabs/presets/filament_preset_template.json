@@ -1,9 +1,66 @@
 {
     "filament_preset_name": "",
-    "basic_information": {
-        "vendor": "",
-        "type": "",
-        "serial": "",
-        "default_color": ""
-    }
+    "filament": {
+        "basic_information": {
+            "vendor": "",
+            "type": "",
+            "serial": "",
+            "default_color": "",
+            "diameter_mm": 1.75,
+            "density_g_cm3": 0,
+            "shrinkage_percent": 0,
+            "velocity_adaptation_factor": 0,
+            "price_money_kg": 0,
+            "softening_temperature": 0,
+            "filament_prime_volume": {
+                "filament_change_mm3": 0,
+                "hotend_change_mm3": 0
+            },
+            "filament_ramming_length": {
+                "extruder_change_mm": 0,
+                "hotend_change_mm": 0
+            },
+            "travel_time_after_ramming": {
+                "extruder_change_sec": 0,
+                "hotend_change_sec": 0
+            },
+            "precooling_target_temperature": {
+                "extruder_change_degc": 0,
+                "hotend_change_degc": 0
+            },
+            "recommended_nozzle_temperature_degc": {
+                "min": 0,
+                "max": 0
+            }
+        },
+        "print_temperature": {
+
+        },
+        "volumentric_speed_limitation": {
+
+        },
+        "filament_scarf_seam_settings": {
+
+        }
+    },
+    "cooling": {
+        "cooling_for_specifc_layer": {
+
+        },
+        "part_cooling_fan": {
+
+        },
+        "auxiliary_part_cooling_fan": {
+            
+        }
+    },
+    "setting_overrides": {
+        "retraction": {
+
+        },
+        "speed": {
+
+        }
+    },
+    "notes": ""
 }
