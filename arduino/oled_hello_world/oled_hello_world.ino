@@ -34,7 +34,7 @@ bool initOLED() {
   }
 
   display.clearDisplay();
-  display.setTextSize(1.8);
+  display.setTextSize(1.85);
   display.setTextColor(SSD1306_WHITE);
   display.setCursor(0,0);
 
@@ -56,6 +56,7 @@ void loop() {
   }
 
   float tempC = sht31.readTemperature();
+  float tempF = tempC * 9.0 / 5.0 + 32.0;
   float humidity = sht31.readHumidity();
   display.clearDisplay();
 
@@ -63,7 +64,8 @@ void loop() {
   display.println("Hello World!");
   display.setCursor(0, 24);
   display.print("Temp: ");
-  display.println(tempC);
+  display.print(tempF);
+  display.println("F");
   display.setCursor(0, 48);
   display.print("RH: ");
   display.print(humidity);
