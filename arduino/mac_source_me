@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+export serial='/dev/cu.usbmodem101'
+export fqbn='esp32:esp32:XIAO_ESP32C3'
+
