@@ -61,7 +61,7 @@ void loop() {
   display.clearDisplay();
 
   display.setCursor(0, 0);
-  display.println("SENSOR 1);
+  display.println("SENSOR 1");
   display.setCursor(0, 24);
   display.print("Temp: ");
   display.print(tempF);
